@@ -13,3 +13,5 @@ Example:
 ```3COM,Wireless AP,ANY,Multi,admin,comcomcom,Admin,Works on all 3com wireless APs```  
 will be displayed:  
 ![Example display](https://cdn.discordapp.com/attachments/574604364342231052/765893402176126976/unknown.png)
+
+You can speed up our work by updating the number of default passwords in the [readme](https://github.com/nothing3F/many-passwords/blob/main/README.md) file.
