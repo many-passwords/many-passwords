@@ -8,4 +8,4 @@ Find out how you can contribute to this by checking the [CONTRIBUTING.md](https:
 # Navigation
 All passwords you will find in the [passwords.csv](https://github.com/nothing3F/many-passwords/blob/main/passwords.csv) file. The data is presented in the form of a table.
 
-Number of collected default passwords: ``42``. 🙂
+Number of collected default passwords: ``43``. 🙂
