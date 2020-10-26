@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#logo {
+  max-width: 80%;
+}
+
+body {
+  background-image: linear-gradient(pink, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#select {
+  cursor: pointer;
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+  border-radius: 22px;
+  box-shadow: 1px 1px 5px grey;
+  padding: 5px;
+  background-color: white;
+}
+
+#select:hover {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.model-info {
+  display: flex;
+  box-shadow: 1px 1px 5px 0 grey;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 22px;
+  font-size: 13px;
+}
+
+.model-info span:nth-child(1) {
+  font-size: 25px;
+  color: red;
+}
+
+.model-info span:nth-child(8) {
+  color: grey;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+  }
+}
