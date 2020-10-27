@@ -4,15 +4,16 @@
   padding: 0;
 }
 
-body,
-button,
-input {
-  font-family: "Montserrat", sans-serif;
-}
-
 html {
   height: 100%;
   overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(pink, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -25,11 +26,9 @@ header {
   margin: 15px;
 }
 
-body {
-  background-image: linear-gradient(pink, white);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+/*
+** Loading Animation Styles
+*/
 
 #loader {
   display: flex;
@@ -74,16 +73,24 @@ body {
   }
 }
 
+.failed {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: indianred;
+  margin: 15px;
+}
+
+/*
+** Data Styles
+*/
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 60%;
   margin: auto;
-}
-
-input[type="file"] {
-  display: none;
 }
 
 .model-info {
@@ -106,25 +113,13 @@ input[type="file"] {
   color: grey;
 }
 
-ul,
-li {
-  list-style-type: none;
-}
-
-.failed {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  color: indianred;
-  margin: 15px;
-}
+/*
+** Responsiveness
+*/
 
 @media (max-width: 768px) {
   .container {
     max-width: 80%;
-  }
-  .buttons {
-    flex-direction: column;
   }
 }
 
