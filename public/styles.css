@@ -22,6 +22,7 @@ header {
 
 #logo {
   max-width: 80%;
+  margin: 15px;
 }
 
 body {
@@ -30,19 +31,47 @@ body {
   background-attachment: fixed;
 }
 
-#select {
-  cursor: pointer;
-  margin: 10px auto;
-  width: 200px;
-  text-align: center;
-  border-radius: 22px;
-  box-shadow: 1px 1px 5px grey;
-  padding: 5px;
-  background-color: white;
+#loader {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }
 
-#select:hover {
-  opacity: 0.5;
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation-name: loading;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.circle:first-child {
+  background-color: #a10702;
+  animation-delay: 0s;
+}
+
+.circle:nth-child(2) {
+  background-color: #f44708;
+  animation-delay: 0.2s;
+}
+
+.circle:nth-child(3) {
+  background-color: #faa613;
+  animation-delay: 0.4s;
+  margin-right: 0px;
+}
+
+@keyframes loading {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 .container {
@@ -82,9 +111,20 @@ li {
   list-style-type: none;
 }
 
+.failed {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: indianred;
+  margin: 15px;
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 80%;
+  }
+  .buttons {
+    flex-direction: column;
   }
 }
 

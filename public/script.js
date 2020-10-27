@@ -1,46 +1,64 @@
-function loadList() {
-  document.getElementById("input").addEventListener("change", function () {
-    var fr = new FileReader();
-    fr.onload = function () {
-      var lines = fr.result.split("\n");
-      let data = (x) => lines[line].split(",")[x];
-      let add = () => document.createElement("span");
+async function loadList() {
+  let result = await fetch(
+    "https://raw.githubusercontent.com/nothing3F/many-passwords/main/passwords.csv"
+  )
+    .then((res) => res.text())
+    .catch(() => "error");
 
-      for (var line = 0; line < lines.length; line++) {
-        const output = document.getElementById("output");
-        const li = document.createElement("li");
-        const vendor = add();
-        const model = add();
-        const version = add();
-        const access = add();
-        const username = add();
-        const password = add();
-        const privileges = add();
-        const notes = add();
+  const loader = document.getElementById("loader");
+  const output = document.getElementById("output");
 
-        vendor.innerHTML = data(0);
-        model.innerHTML = "Model: " + data(1);
-        version.innerHTML = "Version: " + data(2);
-        access.innerHTML = "Access Type: " + data(3);
-        username.innerHTML = "Username: " + data(4);
-        password.innerHTML = "Password: " + data(5);
-        privileges.innerHTML = "Privileges: " + data(6);
-        notes.innerHTML = `"${data(7)}"`;
+  if (result !== "error") {
+    loader.remove();
+    var lines = result.split("\n");
+    let split = (x) => lines[line].split(",")[x];
+    let add = () => document.createElement("span");
 
-        li.setAttribute("class", "model-info");
-        li.appendChild(vendor);
-        li.appendChild(model);
-        li.appendChild(version);
-        li.appendChild(access);
-        li.appendChild(username);
-        li.appendChild(password);
-        li.appendChild(privileges);
-        li.appendChild(notes);
+    for (var line = 0; line < lines.length; line++) {
+      const li = document.createElement("li");
+      const vendor = add();
+      const model = add();
+      const version = add();
+      const access = add();
+      const username = add();
+      const password = add();
+      const privileges = add();
+      const notes = add();
 
-        output.appendChild(li);
+      if (split(0) === "") return;
+
+      vendor.innerHTML = split(0);
+      model.innerHTML = "Model: " + split(1);
+      version.innerHTML = "Version: " + split(2);
+      access.innerHTML = "Access Type: " + split(3);
+      username.innerHTML = "Username: " + split(4);
+      password.innerHTML = "Password: " + split(5);
+      privileges.innerHTML = "Privileges: " + split(6);
+      notes.innerHTML = `"${split(7)}"`;
+
+      li.setAttribute("class", "model-info");
+      li.appendChild(vendor);
+      li.appendChild(model);
+      li.appendChild(version);
+      li.appendChild(access);
+      li.appendChild(username);
+      li.appendChild(password);
+      li.appendChild(privileges);
+      li.appendChild(notes);
+
+      output.appendChild(li);
+    }
+  } else {
+    setTimeout(() => {
+      let confirm = window.confirm(
+        "An error occurred, do you want to reload the page?"
+      );
+      if (confirm) window.location.reload();
+      else {
+        loader.remove();
+        output.textContent = "Failed! Please update the page and try again.";
+        output.classList.add("failed");
       }
-      //document.getElementById("output").textContent = fr.result;
-    };
-    fr.readAsText(this.files[0]);
-  });
+    }, 5000);
+  }
 }
