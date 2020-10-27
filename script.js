@@ -12,10 +12,10 @@ async function loadList() {
     loader.remove();
     var lines = result.split("\n");
     let split = (x) => lines[line].split(",")[x];
-    let add = () => document.createElement("span");
+    let add = () => document.createElement("p");
 
     for (var line = 0; line < lines.length; line++) {
-      const li = document.createElement("li");
+      const li = document.createElement("div");
       const vendor = add();
       const model = add();
       const version = add();

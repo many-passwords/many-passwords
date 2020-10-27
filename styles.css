@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
 }
@@ -86,17 +86,19 @@ header {
 */
 
 .container {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   max-width: 60%;
   margin: auto;
 }
 
+#output {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  width: 100%;
+}
+
 .model-info {
-  display: flex;
   box-shadow: 1px 1px 5px 0 grey;
-  flex-direction: column;
   padding: 15px;
   margin: 15px;
   background-color: white;
@@ -104,12 +106,12 @@ header {
   font-size: 13px;
 }
 
-.model-info span:nth-child(1) {
+.model-info p:nth-child(1) {
   font-size: 25px;
   color: red;
 }
 
-.model-info span:nth-child(8) {
+.model-info p:nth-child(8) {
   color: grey;
 }
 
