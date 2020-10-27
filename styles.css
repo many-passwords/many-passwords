@@ -2,6 +2,7 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+  overflow-wrap: break-word;
 }
 
 html {
