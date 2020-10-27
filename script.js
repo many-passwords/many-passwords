@@ -14,7 +14,7 @@ async function loadList() {
     let split = (x) => lines[line].split(",")[x];
     let add = () => document.createElement("p");
 
-    for (var line = 0; line < lines.length; line++) {
+    for (var line = 1; line < lines.length; line++) {
       const li = document.createElement("div");
       const vendor = add();
       const model = add();
