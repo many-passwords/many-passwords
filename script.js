@@ -62,3 +62,22 @@ async function loadList() {
     }, 5000);
   }
 }
+
+function search_entries() {
+  let base_element = document.getElementsByClassName('search')
+  let input = base_element[0].getElementsByTagName('input')[0].value
+  input = input.toLowerCase();
+
+  let data = document.getElementById('output').childNodes;
+
+  for (i = 0; i < data.length; i++) {
+    if (!data[i].innerHTML.toLowerCase().includes(input)) {
+      data[i].style.display = "none";
+    }
+    else {
+      data[i].style.display="inherit";
+    }
+  }
+
+  console.log(data);
+}

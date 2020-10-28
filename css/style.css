@@ -115,6 +115,13 @@ header {
 
 #navbar li.search {
   float: right;
+  padding: 0;
+}
+
+#navbar li.search input {
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
 }
 
 /*
@@ -165,7 +172,7 @@ header {
     text-align: center;
   }
 
-  #navbar li.search {
-    float: left;
+  #navbar li {
+    float: none;
   }
 }
