@@ -75,7 +75,7 @@ function search_entries() {
       data[i].style.display = "none";
     }
     else {
-      data[i].style.display="inherit";
+      data[i].style.display="inline";
     }
   }
 

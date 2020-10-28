@@ -109,6 +109,7 @@ header {
 
 #navbar a {
   text-decoration: none;
+  color: inherit;
 }
 
 #navbar a:visited {
