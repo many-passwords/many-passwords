@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(pink, white);
+  background: var(--background-color);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -91,7 +91,7 @@ header {
 
 #navbar {
     position: relative;
-    background-color: pink;
+    background-color: var(--foreground-color);
     padding: 10px;
     border-radius: 10px;
     list-style-type: none;
@@ -103,14 +103,20 @@ header {
     width: auto;
     padding: 20px;
     margin: 2px 2px;
-    background: plum;
     border-radius: 5px;
-    
+    color: var(--text-color);
 }
 
 #navbar a {
   text-decoration: none;
-  color: #A62727;
+}
+
+#navbar a:visited {
+  color:inherit;
+}
+
+#navbar li:hover {
+  background: var(--title-color);
 }
 
 #navbar li.search {
@@ -141,10 +147,11 @@ header {
 }
 
 .model-info {
-  box-shadow: 1px 1px 5px 0 grey;
+  box-shadow: 1px 1px 5px 0 var(--shadow-color);
   padding: 15px;
   margin: 15px;
-  background-color: white;
+  background-color: var(--foreground-color);
+  color: var(--text-color);
   border-radius: 22px;
   font-size: 13px;
   overflow-wrap: break-word;
@@ -152,11 +159,11 @@ header {
 
 .model-info p:nth-child(1) {
   font-size: 25px;
-  color: red;
+  color: var(--title-color);
 }
 
 .model-info p:nth-child(8) {
-  color: grey;
+  color: var(--comment-color);
 }
 
 /*
