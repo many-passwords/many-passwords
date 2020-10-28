@@ -2,7 +2,6 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
-  overflow-wrap: break-word;
 }
 
 html {
@@ -25,6 +24,10 @@ header {
 #logo {
   max-width: 80%;
   margin: 15px;
+}
+
+.clear {
+  clear: both;
 }
 
 /*
@@ -83,12 +86,44 @@ header {
 }
 
 /*
+** Navbar Styles
+*/
+
+#navbar {
+    position: relative;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar li {
+    float: left;
+    width: auto;
+    padding: 20px;
+    margin: 2px 2px;
+    background: plum;
+    border-radius: 5px;
+    
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #A62727;
+}
+
+#navbar li.search {
+  float: right;
+}
+
+/*
 ** Data Styles
 */
 
 .container {
   justify-content: center;
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
 }
 
@@ -105,6 +140,7 @@ header {
   background-color: white;
   border-radius: 22px;
   font-size: 13px;
+  overflow-wrap: break-word;
 }
 
 .model-info p:nth-child(1) {
@@ -120,14 +156,16 @@ header {
 ** Responsiveness
 */
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .container {
     max-width: 100%;
+  }
+
+  #mavbar {
+    text-align: center;
+  }
+
+  #navbar li.search {
+    float: left;
   }
 }
