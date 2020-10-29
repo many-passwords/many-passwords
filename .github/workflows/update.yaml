@@ -1,0 +1,14 @@
+name: Update
+
+on: [push]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash update.sh
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Sorted passwords & updated count
+          branch: ${{ steps.extract_branch.outputs.branch }}
