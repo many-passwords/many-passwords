@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body onload="loadList()">
+  <body onload="loadList()"  onscroll="check_scroll_button()">
     <ul id="navbar">
       <li class="selected"><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
@@ -29,6 +29,9 @@
         <div class="circle"></div>
       </div>
       <div id="output"></div>
+      <a id="scroll_button" href="#navbar" class="float-button">
+        <img class="float-img" src="images/arrow.svg" alt="up">
+      </a>
     </div>
     <script src="./script.js"></script>
   </body>

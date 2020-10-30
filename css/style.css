@@ -2,6 +2,7 @@
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -172,6 +173,28 @@ header {
 .model-info hr {
   margin: 5px 0;
   border: 1px solid var(--comment-color);
+}
+
+/*
+** Floating Button
+*/
+
+.float-button {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right: 30px;
+	background-color:var(--text-color);
+  border-radius:50px;
+  text-align:center;
+  display: none;
+}
+
+.float-img {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 /*
