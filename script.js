@@ -25,8 +25,6 @@ async function loadList() {
       const privileges = add();
       const notes = add();
 
-      if (split(0) === "") return;
-
       vendor.innerHTML = split(0);
       model.innerHTML = "Model: " + split(1);
       version.innerHTML = "Version: " + split(2);
@@ -34,7 +32,7 @@ async function loadList() {
       username.innerHTML = "Username: " + split(4);
       password.innerHTML = "Password: " + split(5);
       privileges.innerHTML = "Privileges: " + split(6);
-      notes.innerHTML = `/* ${split(7)} */`;
+      notes.innerHTML = `<hr>/* ${split(7)} */`;
 
       li.setAttribute("class", "model-info");
       li.appendChild(vendor);

@@ -161,10 +161,16 @@ header {
 .model-info p:nth-child(1) {
   font-size: 25px;
   color: var(--title-color);
+  font-weight: bold;
 }
 
 .model-info p:nth-child(8) {
   color: var(--comment-color);
+}
+
+.model-info hr {
+  margin: 5px 0;
+  color: var(--comment-color)
 }
 
 /*
