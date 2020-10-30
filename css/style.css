@@ -93,7 +93,6 @@ header {
     position: relative;
     background-color: var(--foreground-color);
     padding: 10px;
-    border-radius: 10px;
     list-style-type: none;
     text-align: center;
 }
@@ -123,6 +122,7 @@ header {
 #navbar li.search {
   float: right;
   padding: 0;
+  width: minmax(auto);
 }
 
 #navbar li.search input {
@@ -170,7 +170,7 @@ header {
 
 .model-info hr {
   margin: 5px 0;
-  border-color: var(--comment-color)
+  border: 1px solid var(--comment-color);
 }
 
 /*
