@@ -170,7 +170,7 @@ header {
 
 .model-info hr {
   margin: 5px 0;
-  color: var(--comment-color)
+  border-color: var(--comment-color)
 }
 
 /*
