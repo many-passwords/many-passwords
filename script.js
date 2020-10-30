@@ -25,6 +25,8 @@ async function loadList() {
       const privileges = add();
       const notes = add();
 
+      if (split(0) === "") return;
+      
       vendor.innerHTML = split(0);
       model.innerHTML = "Model: " + split(1);
       version.innerHTML = "Version: " + split(2);
