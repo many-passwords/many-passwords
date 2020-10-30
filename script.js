@@ -34,7 +34,7 @@ async function loadList() {
       username.innerHTML = "Username: " + split(4);
       password.innerHTML = "Password: " + split(5);
       privileges.innerHTML = "Privileges: " + split(6);
-      notes.innerHTML = `<br>/* ${split(7)} */`;
+      notes.innerHTML = `<hr>/* ${split(7)} */`;
 
       li.setAttribute("class", "model-info");
       li.appendChild(vendor);

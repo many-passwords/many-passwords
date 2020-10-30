@@ -128,6 +128,7 @@ header {
 #navbar li.search input {
   border-radius: 5px;
   border: none;
+  width: 16rem;
   padding: 20px;
 }
 
@@ -189,4 +190,18 @@ header {
   #navbar li {
     float: none;
   }
+
+  #navbar li.search{
+    width: 90%;
+    float: left;
+  }
+
+  #navbar li.search:hover {
+    background: none;
+  }
+
+  #navbar li.search input {
+    width: 100%;
+  }
+
 }
