@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  color: var(--text-color);
 }
 
 html {
@@ -110,7 +111,6 @@ h1 {
     padding: 20px;
     margin: 2px 2px;
     border-radius: 5px;
-    color: var(--text-color);
 }
 
 #navbar a {
@@ -132,16 +132,17 @@ h1 {
   padding: 0;
   width: 20%; 
   max-width: 350px; 
-  min-width: 145px;
+  min-width: 100px;
   background: red;
 }
 
 #navbar li.search input {
+  position: relative;
+  right: 40px;
   border-radius: 5px;
   border: none;
-  padding: 20px 0;
+  padding: 20px 20px;
   width: 100%;
-  text-align: center;
 }
 
 /*
@@ -165,7 +166,6 @@ h1 {
   padding: 15px;
   margin: 15px;
   background-color: var(--foreground-color);
-  color: var(--text-color);
   border-radius: 22px;
   font-size: 13px;
   overflow-wrap: break-word;
@@ -208,6 +208,12 @@ h1 {
   vertical-align: middle;
 }
 
+.about {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--foreground-color);
+}
+
 /*
 ** Responsiveness
 */
@@ -237,6 +243,7 @@ h1 {
   }
 
   #navbar li.search input {
+    right: 0;
     padding: 20px 0;
     width: 100%;
     text-align: center;
