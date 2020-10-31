@@ -122,15 +122,20 @@ header {
 
 #navbar li.search {
   float: right;
+  
   padding: 0;
-  width: minmax(auto);
+  width: 20%; 
+  max-width: 500px; 
+  min-width: 145px;
+  background: red;
 }
 
 #navbar li.search input {
   border-radius: 5px;
   border: none;
-  width: 16rem;
-  padding: 20px;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
 }
 
 /*
@@ -215,8 +220,10 @@ header {
   }
 
   #navbar li.search{
-    width: 90%;
+    width: 100%;
     float: left;
+    max-width: none; 
+    min-width: none;
   }
 
   #navbar li.search:hover {
@@ -224,7 +231,9 @@ header {
   }
 
   #navbar li.search input {
+    padding: 20px 0;
     width: 100%;
+    text-align: center;
   }
 
 }
