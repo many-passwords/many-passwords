@@ -22,6 +22,12 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: var(--title-color);
+  font-size: max(2.25rem, 6vw);
+}
+
 #logo {
   max-width: 80%;
   margin: 15px;
@@ -125,7 +131,7 @@ header {
   
   padding: 0;
   width: 20%; 
-  max-width: 500px; 
+  max-width: 350px; 
   min-width: 145px;
   background: red;
 }
