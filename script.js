@@ -64,7 +64,6 @@ async function loadList() {
 }
 
 function search_entries() {
-  
   let base_element = document.getElementsByClassName('search')
   let input = base_element[0].getElementsByTagName('input')[0].value
   input = input.toLowerCase();
@@ -81,12 +80,12 @@ function search_entries() {
   }
 }
 
-function check_scroll_button() {
-  var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-  var scrollButton = document.getElementById("scroll_button");
-  if (scrollTop < 300) {
-    scrollButton.style.display = "none";
+$(window).scroll(function (event) {
+  var scrollButton = $("#scroll_button")
+  var scroll = $(window).scrollTop();
+  if (scroll < 300) {
+    scrollButton.fadeOut()
   } else {
-    scrollButton.style.display = "inline";
+    scrollButton.fadeIn()
   }
-}
+});
