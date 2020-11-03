@@ -137,10 +137,9 @@ h1 {
   float: right;
   
   padding: 0;
-  width: 20%; 
+  width: 15%; 
   max-width: 350px; 
-  min-width: 100px;
-  background: red;
+  min-width: 25px;
 }
 
 #navbar li.search input {
@@ -232,7 +231,7 @@ h1 {
 ** Responsiveness
 */
 
-@media (max-width: 550px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .container {
     max-width: 100%;
   }
