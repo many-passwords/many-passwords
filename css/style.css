@@ -168,10 +168,6 @@ h1 {
   width: 100%;
 }
 
-.about {
-  font-size: 20px;
-}
-
 #count-output {
   background-color:#67706f;
   border-radius:3px;
@@ -228,6 +224,7 @@ h1 {
 .about {
   padding: 20px;
   border-radius: 20px;
+  font-size: 20px;
   background: var(--foreground-color);
 }
 
@@ -265,5 +262,4 @@ h1 {
     width: 100%;
     text-align: center;
   }
-
 }
