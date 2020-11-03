@@ -13,8 +13,8 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-  <body onload="loadList()">
+  </head>
+  <body onload="loadEntryCount()" onscroll="check_scroll_button()">
     <ul id="navbar">
       <li class="selected"><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
@@ -24,17 +24,20 @@
     </ul>
     <div class="container">
       <header>
-        <h1>MANY PASSWORDS</h1>
+        <h1>About us</h1>
       </header>
-      <div id="loader">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-      <div id="output"></div>
-      <a id="scroll_button" href="#navbar" class="float-button">
-        <img class="float-img" src="images/arrow.svg" alt="up">
-      </a>
+      <section class="about">
+        <p><em>Default password for each devices.</em> 🐱‍💻</p><br>
+	<p>The purpose of this repository is to collect all the default passwords in one place.<br>
+	Find out how you can contribute to this by checking the <a href="https://github.com/nothing3F/many-passwords/blob/main/CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a> file.</p>
+      </section>
+      <header>
+        <h2>Navigation</h2>
+      </header>
+      <section class="about">
+        <p>All passwords you will find in the <a href="https://github.com/nothing3F/many-passwords/blob/main/passwords.csv" target="_blank">passwords.csv</a> file (the data is presented in the form of a table) or on this page.</p><br>
+	<p>Number of collected default passwords: <code id="count-output">118</code>. 🙂</p>
+      </section>
     </div>
     <script src="./script.js"></script>
   </body>
