@@ -23,6 +23,13 @@ header {
   text-align: center;
 }
 
+header h2{
+  font-family: 'Permanent Marker', cursive;
+  color: var(--title-color);
+  font-size: max(2.25rem, 6vw);
+  margin: 30px 0;
+}
+
 h1 {
   font-family: 'Permanent Marker', cursive;
   color: var(--title-color);
@@ -159,6 +166,16 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   width: 100%;
+}
+
+.about {
+  font-size: 20px;
+}
+
+#count-output {
+  background-color:#67706f;
+  border-radius:3px;
+  padding:2px 4px;
 }
 
 .model-info {

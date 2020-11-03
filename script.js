@@ -34,7 +34,7 @@ async function loadList() {
       username.innerHTML = "Username: " + split(4);
       password.innerHTML = "Password: " + split(5);
       privileges.innerHTML = "Privileges: " + split(6);
-      notes.innerHTML = `<hr>/* ${split(7)} */`;
+      notes.innerHTML = `<hr>${split(7)}`;
 
       li.setAttribute("class", "model-info");
       li.appendChild(vendor);
@@ -60,6 +60,20 @@ async function loadList() {
         output.classList.add("failed");
       }
     }, 5000);
+  }
+}
+
+async function loadEntryCount() {
+  let result = await fetch(
+    "https://raw.githubusercontent.com/nothing3F/many-passwords/main/passwords.csv"
+  )
+    .then((res) => res.text())
+    .catch(() => "error");
+    
+  if (result !== "error") {
+    var lines = result.split("\n");
+    const output = document.getElementById("count-output");
+    output.innerHTML = lines.length-2; // -2 because there are two dummy entries
   }
 }
 
