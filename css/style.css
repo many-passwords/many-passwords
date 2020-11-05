@@ -227,6 +227,10 @@ h1 {
   background: var(--foreground-color);
 }
 
+.about ul {
+  padding: 10px 0;
+}
+
 /*
 ** Responsiveness
 */
