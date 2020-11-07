@@ -8,6 +8,7 @@
 * Submit pull requests with project website improvement, corrections and other things about the page.
 * Submit pull requests or open issues with your ideas to improve the project.
 * Open issues for things you want to see added, modified or help out with existing issues (for example: Have you noticed a typo but you don't know how to fix it? Write about it in issue).
+* Do you have any other idea to help? Feel free to!
 
 # Ground rules
 
