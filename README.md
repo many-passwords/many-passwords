@@ -11,7 +11,7 @@ Find out how you can contribute to this by checking the [CONTRIBUTING.md](https:
 
 All passwords you will find in the [passwords.csv](https://github.com/nothing3F/many-passwords/blob/main/passwords.csv) file (the data is presented in the form of a table) or [project website](https://nothing3f.github.io/many-passwords/).
 
-Number of collected default passwords: ``245``. 🙂
+Number of collected default passwords: ``247``. 🙂
 
 # Contributors
 
