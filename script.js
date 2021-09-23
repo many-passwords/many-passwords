@@ -1,6 +1,6 @@
 async function loadList() {
   let result = await fetch(
-    "https://raw.githubusercontent.com/piechowiakmichal/many-passwords/main/passwords.csv"
+    "https://raw.githubusercontent.com/many-passwords/many-passwords/main/passwords.csv"
   )
     .then((res) => res.text())
     .catch(() => "error");
@@ -65,7 +65,7 @@ async function loadList() {
 
 async function loadEntryCount() {
   let result = await fetch(
-    "https://raw.githubusercontent.com/piechowiakmichal/many-passwords/main/passwords.csv"
+    "https://raw.githubusercontent.com/many-passwords/many-passwords/main/passwords.csv"
   )
     .then((res) => res.text())
     .catch(() => "error");
