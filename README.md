@@ -24,9 +24,17 @@ Special thanks to:
 - [@alenquer](https://github.com/alenquer) - [created the first version](https://github.com/many-passwords/many-passwords/pull/37) of the project page;
 - [@secondl1ght](https://github.com/secondl1ght) - [semantic, accessibility, styling and DRY improvements](https://github.com/many-passwords/many-passwords.github.io/pull/1) and [format code in all files](https://github.com/many-passwords/many-passwords.github.io/pull/2) to be cleaner;
 - [@zeno4ever](https://github.com/zeno4ever) - [adding a lot of ip cameras](https://github.com/many-passwords/many-passwords/pull/60), over 50 entries;
+- [@noraj](https://github.com/noraj) - [adding many entries and helping sanitize the database](https://github.com/many-passwords/many-passwords/pulls?q=is%3Apr+author%3Anoraj+is%3Aclosed);
 - [@all contributors](https://github.com/many-passwords/many-passwords/graphs/contributors) - I cannot list all of you, thank you all for your contribution!
 
 # Sources
 
+We added, formatted, cleaned some entries from:
+
 - Vendors documentations/blogs
 - [ics-default-passwords](https://github.com/arnaudsoullie/ics-default-passwords/)
+- [SecLists - Passwords/Default-Credentials](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials)
+- [BetterDefaultPasslist](https://github.com/govolution/betterdefaultpasslist)
+- [RouterSploit](https://github.com/threat9/routersploit)
+- [changeme](https://github.com/ztgrace/changeme)
+- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
