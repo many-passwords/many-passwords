@@ -29,7 +29,7 @@ Special thanks to:
 
 # Sources
 
-We added, verified, formatted, cleaned some entries from:
+We added, formatted, cleaned some entries from:
 
 - Vendors documentations/blogs
 - [ics-default-passwords](https://github.com/arnaudsoullie/ics-default-passwords/)
@@ -38,4 +38,3 @@ We added, verified, formatted, cleaned some entries from:
 - [RouterSploit](https://github.com/threat9/routersploit)
 - [changeme](https://github.com/ztgrace/changeme)
 - [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
-
