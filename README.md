@@ -23,4 +23,5 @@ Special thanks to:
 - [@Mpcs](https://github.com/Mpcs) - [made very big changes to the project website](https://github.com/many-passwords/many-passwords/pull/41) - change of appearance, grid layout, search bar, navigation bar, About Us page, floating button go to the top, link to repo (contributing button), cleaner code;
 - [@alenquer](https://github.com/alenquer) - [created the first version](https://github.com/many-passwords/many-passwords/pull/37) of the project page;
 - [@secondl1ght](https://github.com/secondl1ght) - [semantic, accessibility, styling and DRY improvements](https://github.com/many-passwords/many-passwords.github.io/pull/1) and [format code in all files](https://github.com/many-passwords/many-passwords.github.io/pull/2) to be cleaner;
+- [@zeno4ever](https://github.com/zeno4ever) - [adding a lot of ip cameras](https://github.com/many-passwords/many-passwords/pull/60), over 50 entries;
 - [@all contributors](https://github.com/many-passwords/many-passwords/graphs/contributors) - I cannot list all of you, thank you all for your contribution!
