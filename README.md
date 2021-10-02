@@ -25,3 +25,8 @@ Special thanks to:
 - [@secondl1ght](https://github.com/secondl1ght) - [semantic, accessibility, styling and DRY improvements](https://github.com/many-passwords/many-passwords.github.io/pull/1) and [format code in all files](https://github.com/many-passwords/many-passwords.github.io/pull/2) to be cleaner;
 - [@zeno4ever](https://github.com/zeno4ever) - [adding a lot of ip cameras](https://github.com/many-passwords/many-passwords/pull/60), over 50 entries;
 - [@all contributors](https://github.com/many-passwords/many-passwords/graphs/contributors) - I cannot list all of you, thank you all for your contribution!
+
+# Sources
+
+- Vendors documentations/blogs
+- [ics-default-passwords](https://github.com/arnaudsoullie/ics-default-passwords/)
