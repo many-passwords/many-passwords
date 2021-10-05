@@ -12,4 +12,7 @@ WORD_COUNT=$(($(cat $PASSWORDS | wc -l) - 1))
 echo "Updating README.md"
 sed -i -E "s/(Number of collected default passwords: \`\`).*(\`\`\. )/\1$(echo $WORD_COUNT)\2/" README.md
 
+echo "Setting Empty Username and Passwords Fields to <blank>"
+awk -F "," -v OFS=',' '$5 == "" { $5 = "<blank>" } $6 == "" { $6 = "<blank>" }1' passwords.csv > tmp.csv && mv -f tmp.csv passwords.csv
+
 echo "done."
