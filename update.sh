@@ -3,7 +3,7 @@ PASSWORDS="passwords.csv"
 
 echo "Sorting and remove duplicates of passwords..."
 cp ${PASSWORDS} ${PASSWORDS}2
-cat ${PASSWORDS}2 | (sed -u 1q; sort -u -f) > $PASSWORDS
+cat ${PASSWORDS}2 | (sed -u 1q; sort -u) > $PASSWORDS
 rm ${PASSWORDS}2
 
 echo "Counting passwords..."
