@@ -25,6 +25,7 @@ Special thanks to:
 - [@secondl1ght](https://github.com/secondl1ght) - [semantic, accessibility, styling and DRY improvements](https://github.com/many-passwords/many-passwords.github.io/pull/1) and [format code in all files](https://github.com/many-passwords/many-passwords.github.io/pull/2) to be cleaner;
 - [@zeno4ever](https://github.com/zeno4ever) - [adding a lot of ip cameras](https://github.com/many-passwords/many-passwords/pull/60), over 50 entries;
 - [@noraj](https://github.com/noraj) - [adding many entries and helping sanitize the database](https://github.com/many-passwords/many-passwords/pulls?q=is%3Apr+author%3Anoraj+is%3Aclosed);
+- [@Glowstik-YT](https://github.com/Glowstik-YT) - [created new logo](https://github.com/many-passwords/many-passwords/pull/80);
 - [@all contributors](https://github.com/many-passwords/many-passwords/graphs/contributors) - I cannot list all of you, thank you all for your contribution!
 
 # Sources
