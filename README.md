@@ -1,4 +1,4 @@
-![](https://github.com/many-passwords/many-passwords/blob/main/many-passwords.png)
+![Many passwords image](./assets/banner.png)
 
 # Many passwords
 
@@ -17,6 +17,8 @@ Number of collected default passwords: ``471``. 🙂
 
 Thank you very much to all contributors for their contribution to this project.  
 You are an important part of this project, without people like you the project would not exist.
+
+![Thanking image](./assets/support.png)
 
 Special thanks to:
 - [@MarcelCoding](https://github.com/MarcelCoding) - [created Github Action](https://github.com/many-passwords/many-passwords/pull/49) which streamlined and accelerated the work;
