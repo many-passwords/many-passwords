@@ -13,7 +13,7 @@ _Many passwords, default credentials list._ 🐱‍💻
 
 ## Stats
 
-Number of collected default passwords: ``2548`` ✔️
+Number of collected default passwords: ``2548``. ✔️
 
 ## Navigation
 
