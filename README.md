@@ -14,7 +14,7 @@ All passwords you will find in the [passwords.csv](https://github.com/many-passw
 <<<<<<< HEAD
 Number of collected default passwords: ``2905``. 🙂
 =======
-Number of collected default passwords: ``2550``. 🙂
+Number of collected default passwords: ``2905``. 🙂
 >>>>>>> parent of 8b3dfdd (Sorted passwords & updated count)
 
 # Contributors
