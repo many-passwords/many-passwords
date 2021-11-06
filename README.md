@@ -11,7 +11,7 @@ Find out how you can contribute to this by checking the [CONTRIBUTING.md](https:
 
 All passwords you will find in the [passwords.csv](https://github.com/many-passwords/many-passwords/blob/main/passwords.csv) file (the data is presented in the form of a table) or [project website](https://github.com/many-passwords/).
 
-Number of collected default passwords: ``2728``. 🙂
+Number of collected default passwords: ``2727``. 🙂
 
 # Contributors
 
