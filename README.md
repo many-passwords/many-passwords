@@ -41,3 +41,4 @@ We added, formatted, cleaned some entries from:
 - [changeme](https://github.com/ztgrace/changeme)
 - [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
 - [Cirt](https://cirt.net/passwords)
+- [Saynamweb](https://sites.google.com/site/saynamweb/password)
