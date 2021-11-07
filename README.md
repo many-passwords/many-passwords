@@ -2,9 +2,12 @@
 
 # Many passwords
 
-_Many passwords, default credentials list._ 🐱‍💻
+_Default passwords for IoT devices and for web applications (for ex. MySQL and PostgreSQL admin panels)._ 🐱‍💻
+
+_Useful for fans of Shodan, Censys and Google dorks._
 
 - [x] in progress
+
 ## Motivation
 
 - one document for the vendors default credentials with high-quality entries
