@@ -22,7 +22,7 @@ Places in the world where the project page was displayed:
 
 ![](https://user-images.githubusercontent.com/36797326/140653129-6901431e-9ca3-47fc-b6e0-63d7e26d2b13.png)
 
-As you can see, most people are from India, United States and Russia. The goal is for the entire map to turn blue. 🛰️
+As you can see, most people are from India, United States and Russia. The goal is for the entire map to turn blue.
 
 ## Navigation
 
