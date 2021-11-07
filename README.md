@@ -18,7 +18,7 @@ _Useful for fans of Shodan, Censys and Google dorks._
 
 Number of collected default passwords: ``2548``. ✔️
 
-Places in the world where the project page was displayed:
+Places in the world where the [project page](https://many-passwords.github.io/) was displayed:
 
 ![](https://user-images.githubusercontent.com/36797326/140653129-6901431e-9ca3-47fc-b6e0-63d7e26d2b13.png)
 
