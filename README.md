@@ -30,6 +30,13 @@ Credentials are in the [passwords.csv](https://github.com/many-passwords/many-pa
 
 Each entries contains: ``Vendor``, ``Model/Software name``, ``Version``, ``Access Type``, ``Username``, ``Password``, ``Privileges`` and ``Notes``.
 
+### Pass Station
+
+[Pass Station](https://github.com/noraj/pass-station) is CLI & library to search for default credentials, created by [@noraj](https://github.com/noraj).  
+As of [1.2.3 version](https://github.com/noraj/pass-station/releases/tag/v1.2.3) _Many passwords_ have been added as one of the sources of credentials.
+
+Doc: [https://noraj.github.io/pass-station/#/](https://noraj.github.io/pass-station/#/)
+
 ## Contribution
 
 Contribute <!-- in the main repository --> by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords/blob/main/CONTRIBUTING.md) file in main repo<!--or    
