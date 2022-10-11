@@ -5,9 +5,9 @@
 # How you can help
 
 * Submit pull requests with new default passwords (see guidelines below) or snippet updates (notes, typos, incorrect data, etc).
-* Submit pull requests with project website improvement, corrections, and other things about the page (website files are in the [website repository](https://github.com/many-passwords/many-passwords.github.io)).
+* Submit pull requests with project website improvement, corrections and other things about the page (website files are in the [website repository](https://github.com/many-passwords/many-passwords.github.io)).
 * Submit pull requests or open issues with your ideas to improve the project.
-* Open issues for things you want to see added, modified, or help out with existing issues (for example: Have you noticed a typo but don't know how to fix it? Write about it in the [issue](https://github.com/many-passwords/many-passwords/issues/new).
+* Open issues for things you want to see added, modified or help out with existing issues (for example: Have you noticed a typo but don't know how to fix it? Write about it in the [issue](https://github.com/many-passwords/many-passwords/issues/new).
 * Fix unresolved issues from [here](https://github.com/many-passwords/many-passwords.github.io/labels/help%20wanted) and [here](https://github.com/many-passwords/many-passwords.github.io/labels/help%20wanted).
 * Do you have any other ideas to help? Feel free to!
 
