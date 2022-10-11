@@ -4,7 +4,7 @@
 
 _Default passwords for IoT devices and for web applications (for ex. MySQL and PostgreSQL admin panels)._ 🐱‍💻
 
-_Useful for fans of Shodan, Censys, and Google dorks._
+_Useful for fans of Shodan, Censys and Google dorks._
 
 - [x] in progress
 
@@ -22,7 +22,7 @@ Places in the world where the [project page](https://many-passwords.github.io/) 
 
 ![stats](https://user-images.githubusercontent.com/36797326/141017341-bfd438ed-eca9-41c8-91ed-2fd3e1dbd973.png)
 
-As you can see, most people are from India, Russia, and United States. The goal is for the entire map to turn blue.
+As you can see, most people are from India, Russia and United States. The goal is for the entire map to turn blue.
 
 ## Navigation
 
