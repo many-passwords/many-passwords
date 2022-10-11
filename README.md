@@ -10,9 +10,9 @@ _Useful for fans of Shodan, Censys and Google dorks._
 
 ## Motivation
 
-- one document for the vendors default credentials with high-quality entries
-- encouragent participation in the open source community by taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-- archiving credentials of no longer available in the web
+- one document for the vendor's default credentials with high-quality entries
+- encouragement participation in the open source community by taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+- archiving credentials of no longer available on the web
 
 ## Stats
 
@@ -39,7 +39,7 @@ Doc: [https://noraj.github.io/pass-station/#/](https://noraj.github.io/pass-stat
 
 ## Contribution
 
-Contribute <!-- in the main repository --> by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords/blob/main/CONTRIBUTING.md) file in main repo<!--or    
+Contribute <!-- in the main repository --> by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords/blob/main/CONTRIBUTING.md) file in the main repo<!--or    
 contribute in the web repository by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords.github.io/blob/main/CONTRIBUTING.md) file in website repo. -->.
 ## Sources
 
@@ -60,7 +60,7 @@ Entries are gathered from different sources:
 
 ## Special thanks
 
-Thank you so much all contributors for their contribution to this project. I hope you will contribute to the open source community again!
+Thank you so much to all contributors for their contribution to this project. I hope you will contribute to the open-source community again!
 
 Special thanks to:
 
