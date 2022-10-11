@@ -4,15 +4,15 @@
 
 _Default passwords for IoT devices and for web applications (for ex. MySQL and PostgreSQL admin panels)._ 🐱‍💻
 
-_Useful for fans of Shodan, Censys and Google dorks._
+_Useful for fans of Shodan, Censys, and Google dorks._
 
 - [x] in progress
 
 ## Motivation
 
-- one document for the vendors default credentials with high-quality entries
-- encouragent participation in the open source community by taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
-- archiving credentials of no longer available in the web
+- one document for the vendor's default credentials with high-quality entries
+- encouragement participation in the open source community by taking part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+- archiving credentials of no longer available on the web
 
 ## Stats
 
@@ -22,7 +22,7 @@ Places in the world where the [project page](https://many-passwords.github.io/) 
 
 ![stats](https://user-images.githubusercontent.com/36797326/141017341-bfd438ed-eca9-41c8-91ed-2fd3e1dbd973.png)
 
-As you can see, most people are from India, Russia and United States. The goal is for the entire map to turn blue.
+As you can see, most people are from India, Russia, and United States. The goal is for the entire map to turn blue.
 
 ## Navigation
 
@@ -39,7 +39,7 @@ Doc: [https://noraj.github.io/pass-station/#/](https://noraj.github.io/pass-stat
 
 ## Contribution
 
-Contribute <!-- in the main repository --> by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords/blob/main/CONTRIBUTING.md) file in main repo<!--or    
+Contribute <!-- in the main repository --> by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords/blob/main/CONTRIBUTING.md) file in the main repo<!--or    
 contribute in the web repository by checking the [CONTRIBUTING.md](https://github.com/many-passwords/many-passwords.github.io/blob/main/CONTRIBUTING.md) file in website repo. -->.
 ## Sources
 
@@ -60,7 +60,7 @@ Entries are gathered from different sources:
 
 ## Special thanks
 
-Thank you so much all contributors for their contribution to this project. I hope you will contribute to the open source community again!
+Thank you so much to all contributors for their contribution to this project. I hope you will contribute to the open-source community again!
 
 Special thanks to:
 
