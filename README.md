@@ -20,9 +20,10 @@ Number of collected default passwords: ``2846``. ✔️
 
 Places in the world where the [project page](https://many-passwords.github.io/) was displayed:
 
-![stats](https://user-images.githubusercontent.com/36797326/141017341-bfd438ed-eca9-41c8-91ed-2fd3e1dbd973.png)
+![stats](https://github.com/many-passwords/many-passwords/assets/36797326/b0140c12-7304-4cea-9ec3-93d1e068bc6f)
 
-As you can see, most people are from India, Russia and United States. The goal is for the entire map to turn blue.
+<!-- ![stats](https://user-images.githubusercontent.com/36797326/141017341-bfd438ed-eca9-41c8-91ed-2fd3e1dbd973.png) -->
+As you can see, most people are from United States, India and Russia. The goal is for the entire map to turn blue.
 
 ## Navigation
 
