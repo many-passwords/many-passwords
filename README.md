@@ -74,4 +74,5 @@ Special thanks to:
 - [@Glowstik-YT](https://github.com/Glowstik-YT) - [created new logo](https://github.com/many-passwords/many-passwords/pull/80);
 - [@SurendarSingh](https://github.com/SurendarSingh) and [@rahulbhatt1899](https://github.com/rahulbhatt1899) - added contact form [pull/14](https://github.com/many-passwords/many-passwords.github.io/pull/14) and [pull/8](https://github.com/many-passwords/many-passwords.github.io/pull/8);
 - [@NgoQuocBao1010](https://github.com/NgoQuocBao1010) - [added buttons for downloads passwords to CSV and JSON file and displaying the number of collected passwords on the home page](https://github.com/many-passwords/many-passwords.github.io/issues/20);
+- [@menghif](https://github.com/menghif) - [website optimization for the user and the search engine](https://github.com/many-passwords/many-passwords.github.io/pull/28);
 - [@all contributors](https://github.com/many-passwords/many-passwords/graphs/contributors) - I cannot list all of you, thank you all for your contribution!
